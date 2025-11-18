@@ -26,12 +26,22 @@ Remove-Item data.zip
 
 ### 2. Environment & Dependencies
 
-```bash
-# TODO: Add installation instructions allowing someone to replicate your environment.
-```
+**Dependencies -- you must install these before running:**
+
+- python 3.11.13
+- pandas 2.3.1 
+- geopandas 1.0.1
+- pyarrow 19.0.0 (remove?)
+- fastparquet 2024.11.0
+- matplotlib 3.10.0      
+- seaborn 0.13.2
+- numpy 2.3.1      
+
+
 
 ## Usage
-
+**Enter the following command in the terminal**
 ```bash
-# TODO: Add command(s) to run all of the code to generate the assets used in your analysis and presentation.
-```
+cd scripts
+python run_all.py 
+````
