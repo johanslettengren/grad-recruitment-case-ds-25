@@ -5,6 +5,7 @@ import filter
 
 from matplotlib.colors import LinearSegmentedColormap
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def run_all():
         
